@@ -1,5 +1,6 @@
 well this is an quest to answer the following question
 1.is there a way to transfer learning from one model to other without furthure computation(finetuning or adaption) such that new model doesnt loose its own learnings.
 possible solutions:
-1.establish an central knowledge base where models can read/write  there learning
+1.establish an central knowledge base where models can read/write  there learning like an RAG
 2.establishing an Shared Embedding Space with Attention Mechanism.
+3.FINE TUNING USING LORA(JUST BORROWING WEIGHTS BUT ,decentarlized way of doing things where models keep creating lora layers with time stamps and keep giving out these layers(sharing,all models create and also use other models lora layers) where other models can find new and lastest lora adapters and add on to answer something,creating an hub for lora adapters along wwith tags)
